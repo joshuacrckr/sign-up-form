@@ -1,0 +1,91 @@
+@font-face {
+    font-family: prologue-bold;
+    src: url(fonts/Prologue-Bold.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    font-family: prologue-bold;
+}
+
+#left {
+    height: 100vh;
+}
+
+#title-container {
+    position: absolute;
+    top: 130px;
+    background-color: rgba(5, 5, 5, 0.521);
+    height: 100px;
+    width: 601.33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    color: white;
+    font-size: 60px;
+}
+
+img {
+    max-height: 100vh;
+}
+
+p {
+    position: absolute;
+    color: white;
+    left: 115.5px;
+    bottom: 20px;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-evenly;*/
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 600px;
+    max-width: 900px;
+    margin: 40px 20px 20px 20px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 650px;
+}
+
+.form-data {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+input {
+    border-radius: 5px;
+    border: solid 1px rgba(117, 117, 117, 0.438);
+    width: 175px
+}
+
+textarea {
+    
+}
+
+input:focus,
+textarea:focus {
+    background: rgba(23, 95, 202, 0.603);
+}
